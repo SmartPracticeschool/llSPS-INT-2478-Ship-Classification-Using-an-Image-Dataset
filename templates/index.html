@@ -10,6 +10,7 @@
     <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
     <!-- "{{ url_for('static', filename='css/main.css') }}" -->
 	<style>
 	.bg-dark {
@@ -47,7 +48,7 @@
         <div class="row">
           <div class="flowchart container-fluid col-lg-6">
 
-            <h3>Flowchart Of the Project:</h3>
+            <h3>Flowchart Of the Model:</h3>
 
             <img class='flowchart-img' src="{{url_for('static',filename='images/flowchart.png')}}" alt="">
 
@@ -71,7 +72,7 @@
                 </div>
               </div>
               <div>
-                <button type="button" class="btn btn-danger-outline btn-lg " id="btn-predict">Predict!</button>
+                <button type="button" class="btn btn-danger btn-lg " id="btn-predict">Predict!</button>
               </div>
             </div>
 

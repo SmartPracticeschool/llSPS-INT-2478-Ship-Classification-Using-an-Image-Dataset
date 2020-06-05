@@ -15,7 +15,7 @@ padding:2%;
 
 }
 .footer{
-  margin-top:10%;
+  margin-top:5%;
   text-align:center;
 }
 
@@ -51,7 +51,7 @@ input[type="file"] {
 .upload-label{
     display: inline-block;
     padding: 12px 30px;
-    background: #39D2B4;
+    background: #DE3C4B;
     color: #fff;
     font-size: 1em;
     transition: all .4s;
@@ -59,8 +59,8 @@ input[type="file"] {
 }
 
 .upload-label:hover{
-    background: #34495E;
-    color: #39D2B4;
+    background: rgba(218, 65, 103, .7);
+    color: white;
 }
 
 .loader {
@@ -75,4 +75,8 @@ input[type="file"] {
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+}
+
+body{
+font-family: 'Merriweather', serif;
 }
